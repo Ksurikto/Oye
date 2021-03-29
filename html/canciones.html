@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href=../dist/css/bootstrap.min.css>
+    <link rel="stylesheet" href=../css/estilos.css>
+    <link rel="stylesheet" href="../css/estiloscanciones.css">
+
+    <title>Oye - Canciones</title>
+  </head>
+  <body>
+<!-- NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="../img/logoye.svg" alt="" title="Oye" width="30%">
+        </a>
+        <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white text-black-50" href="canciones.html">Canciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="iniciosesion.html">Inicio de Sesión</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white active" href="registro.html">Registro</a>
+                </li>
+                <li class="nav-item">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#ventana">
+                        Contacto
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="ventana" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Contacto</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>info@oye.com</p>
+                                <p>+1 34 234 432</p>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>    
+        
+    <!-- BUSCANDOR-->
+  <div class="container mt-4" id="canciones">
+    <div class="row">
+      <div class="col">
+        <h2 class="text-center m-2 " style="font-size: 3rem;">Canciones</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container p-4" id="canciones">
+    <div class="row">
+      <div class="col p-1">
+        <form class="d-flex">
+          <input class="form-control mr-2 card-filter" type="search" placeholder="Buscar..." aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- CANCIONES-->
+  <div class="container mb-4" id="canciones">
+    <div class="row cards">
+
+      <div class="col my-3 cardbusqueda">
+        <div class="card" style="width: 21rem;" id="icono">
+          <img  src="../img/caratula1.jpg" class="card-img-top" alt="vive">
+          <div class="card-body" id="tituloaudio">
+            <h5 class="card-vive">Vive</h5>
+            <audio src="../media/uno.mp3" controls></audio>
+          </div>
+        </div>
+      </div>
+
+      <div class="col my-3 cardbusqueda">
+        <div class="card" style="width: 21rem;">
+          <img  src="../img/caratula1.jpg" class="card-img-top" alt="invierno">
+          <div class="card-body">
+            <h5 class="card-invierno">Invierno</h5>
+            <audio src="../media/uno.mp3" controls></audio>          
+          </div>
+        </div>
+      </div>
+
+      <div class="col my-3 cardbusqueda">
+        <div class="card" style="width: 21rem;">
+          <img  src="../img/caratula1.jpg" class="card-img-top" alt="planeta">
+          <div class="card-body">
+            <h5 class="card-planeta">Planeta</h5>
+            <audio src="../media/uno.mp3" controls></audio>          
+          </div>
+        </div>
+      </div>
+
+      <div class="col my-3 cardbusqueda">
+        <div class="card" style="width: 21rem;">
+          <img  src="../img/caratula1.jpg" class="card-img-top" alt="suave">
+          <div class="card-body">
+            <h5 class="card-suave">Suave</h5>
+            <audio src="../media/uno.mp3" controls></audio>          
+          </div>
+        </div>
+      </div>
+
+      <div class="col my-3 cardbusqueda">
+        <div class="card" style="width: 21rem;">
+          <img  src="../img/caratula1.jpg" class="card-img-top" alt="contigo">
+          <div class="card-body">
+            <h5 class="card-contigo">Contigo</h5>
+            <audio src="../media/uno.mp3" controls></audio>          
+          </div>
+        </div>
+      </div>
+
+      <div class="col my-3 cardbusqueda">
+        <div class="card" style="width: 21rem;">
+          <img  src="../img/caratula1.jpg" class="card-img-top" alt="alas">
+          <div class="card-body">
+            <h5 class="card-alas">Alas</h5>
+            <audio src="../media/uno.mp3" controls></audio>          
+          </div>
+        </div>
+      </div>
+
+      <div class="col my-3 cardbusqueda">
+        <div class="card" style="width: 21rem;">
+          <img  src="../img/caratula1.jpg" class="card-img-top" alt="verde">
+          <div class="card-body">
+            <h5 class="card-verde">Verde</h5>
+            <audio src="../media/uno.mp3" controls></audio>          
+          </div>
+        </div>
+      </div>
+
+      <div class="col my-3 cardbusqueda">
+        <div class="card" style="width: 21rem;">
+          <img  src="../img/caratula1.jpg" class="card-img-top" alt="nuevamente">
+          <div class="card-body">
+            <h5 class="card-nuevamente">Nuevamente</h5>
+            <audio src="../media/uno.mp3" controls></audio>          
+          </div>
+        </div>
+      </div>
+
+      <div class="col my-3 cardbusqueda">
+        <div class="card" style="width: 21rem;">
+          <img  src="../img/caratula1.jpg" class="card-img-top" alt="hoy">
+          <div class="card-body">
+            <h5 class="card-hoy">Hoy</h5>
+            <audio src="../media/uno.mp3" controls></audio>          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!-- FOOTER-->
+<footer>
+    <div class="container-fluid bg-dark text-white" >
+        <div class="row">
+            <div class="col-lg-6 col-12 text-center text-lg-left">Comparte la musica</div>
+            <div class="col-lg-6 col-12 text-center text-lg-right">@Derechos Reservados</div>
+        </div>
+    </div>
+</footer>
+
+<!-- Script-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="../js/filtrocanciones.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+body{
+    background-color:#FD765D;
+}
+
+h1,h2{
+    
+    font-size: 3.1rem;
+}
+#topcanciones, #inicio, #inisiosesion, #registro, #canciones{
+    background-color:#FED1C9;
+}
+
+{
+    vertical-align: middle;
+}
